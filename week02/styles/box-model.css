@@ -29,6 +29,7 @@ cite {
     border-top: 1px dotted #fff;
     padding-top: 10px;
     text-align: right;
-    font-size: smaller
-
+    font-family: 'palatino', serif;
+    font-style: italic;
+    font-size: smaller;
 }
