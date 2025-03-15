@@ -85,7 +85,8 @@ article {
 article img {
     float: right;
     margin-left: 10px;
-    width: 50px;
+    width: 200px;
+    height: auto;
     border-radius: 50%;
 }
 
