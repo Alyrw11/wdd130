@@ -91,6 +91,15 @@ article img {
     border-radius: 20%;
 }
 
+.hclient img {
+    position:absolute;
+    float: right;
+    margin-left: 10px;
+    width: 20px;
+    padding: 10px;
+    border-radius: 20%;
+}
+
 section {
     padding: 20px;
     background: var(--text-color);
