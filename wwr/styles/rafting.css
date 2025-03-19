@@ -83,7 +83,7 @@ article {
 }
 
 article img {
-    float: right;
+    float: static;
     margin-left: 10px;
     width: 20px;
     padding: 10px;
