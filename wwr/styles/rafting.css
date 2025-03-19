@@ -69,7 +69,7 @@ nav a {
     transform: translate(-50%, -50%);
     background: #D1D8B5;
     color: var(--text-color);
-    padding: 15px 25px;
+    padding: 15px, 25px;
     border-radius: 5px;
 }
 /*adding the .hero to the existing article */
@@ -86,7 +86,8 @@ nav a {
 .hero article img {
     float: right;
     margin-left: 10px;
-    width: 200px;
+    width: 500px;
+    height: auto;
     padding: 10px;
     border-radius: 20%;
 }
