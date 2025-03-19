@@ -59,6 +59,7 @@ nav a {
     display: block;
     width: 100%;
     height: auto;
+    opacity: 0.5;
 }
 
 .hero h1 {
@@ -71,8 +72,8 @@ nav a {
     padding: 15px 25px;
     border-radius: 5px;
 }
-
-article {
+/*adding the .hero to the existing article */
+.hero article {
     position: absolute;
     bottom: 10px;
     left: 10px;
@@ -81,12 +82,11 @@ article {
     color: var(--text-color);
     border-radius: 5px;
 }
-
-article img {
-    position:absolute;
+/*add .hero to already existing*/
+.hero article img {
     float: right;
     margin-left: 10px;
-    width: 20px;
+    width: 200px;
     padding: 10px;
     border-radius: 20%;
 }
