@@ -80,7 +80,6 @@ nav a {
     padding: 15px;
     color: var(--text-color);
     border-radius: 5px;
-    opacity: 0.5;
 }
 /*add .hero to already existing*/
 .hero article img {
