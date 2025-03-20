@@ -75,7 +75,7 @@ nav a {
 .hero article {
     position: absolute;
     bottom: 10px;
-    left: 10px;
+    left: 25px;
     background: #D1D8B5;
     padding: 15px;
     color: var(--text-color);
