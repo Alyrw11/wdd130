@@ -75,13 +75,13 @@ nav a {
 .hero article {
     position: absolute;
     bottom: 10px;
-    left: 50%;
+    left: 25%;
     background: #D1D8B5;
     padding: 15px;
     color: var(--text-color);
     border-radius: 5px;
 }
-/*add .hero to already existing*/
+/*add .hero to already existing article img*/
 .hero article img {
     float: right;
     margin-left: 10px;
