@@ -63,7 +63,7 @@ nav a {
 
 .hero h1 {
     position: absolute;
-    top: 15%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: #D1D8B5;
@@ -75,7 +75,7 @@ nav a {
 .hero article {
     position: absolute;
     bottom: 10px;
-    left: 25px;
+    left: 50%;
     background: #D1D8B5;
     padding: 15px;
     color: var(--text-color);
