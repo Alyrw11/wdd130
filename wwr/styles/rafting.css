@@ -68,7 +68,7 @@ nav a {
     transform: translate(-50%, -50%);
     background: #D1D8B5;
     color: var(--text-color);
-    padding: 15px, 25px;
+    padding: 15px;
     border-radius: 5px;
 }
 /*adding the .hero to the existing article */
