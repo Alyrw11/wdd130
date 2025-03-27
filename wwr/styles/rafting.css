@@ -115,6 +115,8 @@ nav a {
 }
 
 .historyLayout h1 {
+    display: flex;
+    justify-content: center;
     text-align: center;
     padding: 20px;
     background: var(--primary-color);
