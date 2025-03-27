@@ -44,13 +44,12 @@ header img {
 }
 
 .headerGrid {
-    /*testing out grid*/
+    /*testing out grid
     display: flex;
-    justify-content: space-between;
-    /*display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;*/
-    align-items: center;
-
+    justify-content: space-between;*/
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    align-items: space-between;
 }
 
 .headerGrid nav {
