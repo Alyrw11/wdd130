@@ -37,7 +37,7 @@ header {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    padding: 10px;
+    padding: 5px;
     background-color: var(--primary-color);
 }
 
@@ -89,6 +89,7 @@ nav ul {
     color: var(--text-color);
     padding: 15px;
     border-radius: 5px;
+    font-size: .7cm;
 }
 /*adding the .hero to the existing article */
 .hero article {
@@ -96,9 +97,10 @@ nav ul {
     bottom: 10px;
     left: 20%;
     background: #D1D8B5;
-    padding: 15px;
+    padding: 10px;
     color: var(--text-color);
     border-radius: 5px;
+    text-align: center;
 }
 /*add .hero to already existing article img*/
 .hero article img {
