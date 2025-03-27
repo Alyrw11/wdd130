@@ -122,7 +122,7 @@ nav a {
 }
 
 .historyLayout p {
-    color: var(--secondary-color);
+    color: var(--accent-color);
 }
 
 .adventureLayout {
