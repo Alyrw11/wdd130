@@ -43,8 +43,11 @@ header img {
 }
 
 .headerGrid {
+    /*testing out grid
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;*/
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
 }
 
