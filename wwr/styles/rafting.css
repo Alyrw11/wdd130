@@ -42,6 +42,12 @@ header img {
     height: 60px;
 }
 
+.headerGrid {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .headerGrid nav {
     display: flex;
     justify-content: flex-end;
@@ -133,6 +139,11 @@ nav a {
     flex: 1 1 calc(20% - 10px);
     margin: 0;
     text-align: center;
+}
+
+.adventureLayout figure img {
+    width: 100%;
+    border-radius: 8px;
 }
 
 .adventureLayout figure img {
