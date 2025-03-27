@@ -102,6 +102,12 @@ nav a {
     background: var(--text-color);
     color: white;
 }
+.historyLayout h1 {
+    text-align: center;
+    padding: 20px;
+    background: var(--primary-color);
+    color: var(--text-color);
+}
 
 .adventureLayout {
     display: flex;
