@@ -146,12 +146,6 @@ nav a {
     border-radius: 8px;
 }
 
-.adventureLayout figure img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
 .adventureLayout figcaption {
     margin-top: 5px;
     font-weight: bold;
