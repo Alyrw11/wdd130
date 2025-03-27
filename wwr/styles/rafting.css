@@ -110,7 +110,7 @@ nav a {
     border-radius: 15px;
 }
 
-.historyLayout {
+/*.historyLayout {
     display: flex;
     justify-content: baseline;
     align-items: center;
@@ -143,6 +143,34 @@ nav a {
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
+}*/
+
+.historyLayout {
+    display: grid;
+    grid-template-columns: 1fr 200px 1fr;
+    gap: 20px;
+    align-items: start;
+    background: var(--text-color);
+    color: white;
+    padding: 20px;
+}
+
+.historyLayout h2 {
+    grid-column: 1 / -1;
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.historyLayout img {
+    width: 200px;
+    justify-self: center;
+    align-self: start;
+}
+
+.historyLayout p {
+    color: var(--accent-color);
+    word-wrap: break-word;
 }
 
 .adventureLayout {
