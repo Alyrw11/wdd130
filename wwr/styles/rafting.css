@@ -42,6 +42,11 @@ header img {
     height: 60px;
 }
 
+.headerGrid nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
 nav a {
     color: var(--text-color);
     text-decoration: none;
@@ -91,6 +96,39 @@ nav a {
     border-radius: 15px;
 }
 
+.historyLayout {
+    display: grid;
+    grid-template-columns: 1fr;
+    background: var(--text-color);
+    color: white;
+}
+
+.adventureLayout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: var(--background-color);
+    padding: 20px;
+}
+
+.adventureLayout figure {
+    flex: 1 1 calc(20% - 10px);
+    margin: 0;
+    text-align: center;
+}
+
+.adventureLayout figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.adventureLayout figcaption {
+    margin-top: 5px;
+    font-weight: bold;
+    color: var(--secondary-color);
+}
 .hclient img {
     position:absolute;
     float: right;
@@ -114,6 +152,9 @@ footer {
     padding: 15px;
     color: var(--text-color);
     margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 footer p {
@@ -124,4 +165,13 @@ footer a img {
     text-decoration: none;
     width: 30px;
     margin: 5px;
+}
+
+footer .socLinks {
+    display: flex;
+    gap: 10px;
+}
+
+footer .socLinks a img {
+    width: 30px;
 }
