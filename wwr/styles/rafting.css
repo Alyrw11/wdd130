@@ -22,6 +22,7 @@ body {
 h1, h2 {
     font-family: var(--font-heading);
     color: var(--primary-color);
+    text-align: center;
 }
 
 p {
@@ -113,14 +114,14 @@ nav a {
     color: white;
 }
 
-.historyLayout h1 {
+/*.historyLayout h2 {
     display: flex;
     justify-content: center;
     text-align: center;
     padding: 20px;
     background: var(--primary-color);
     color: var(--text-color);
-}
+} */
 
 .historyLayout p {
     color: var(--accent-color);
