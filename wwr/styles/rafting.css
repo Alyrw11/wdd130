@@ -47,7 +47,6 @@ header img {
     display: flex;
     justify-content: space-between;
     /*display: grid;
-    
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;*/
     align-items: center;
 
@@ -142,6 +141,7 @@ nav a {
     width: 100%;
     color: var(--secondary-color);
 }
+
 .adventureLayout figure {
     flex: 1 1 calc(20% - 10px);
     margin: 0;
@@ -158,6 +158,7 @@ nav a {
     font-weight: bold;
     color: var(--secondary-color);
 }
+
 .hclient img {
     position:absolute;
     float: right;
