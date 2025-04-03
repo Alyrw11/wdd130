@@ -221,7 +221,7 @@ footer .socLinks a img {
 }
 
 /*contact us form */
-.contact-info, .form-section, .team {
+.contactInfo, .formSection, .kittyTeam {
     background-color: var(--accent-color);
     color: var(--text-color);
     padding: 20px;
@@ -234,23 +234,23 @@ footer .socLinks a img {
     margin: 20px auto;
     border-radius: 10px;
 }
-.contact-info p {
+.contactInfo p {
     color: var(--text-color);
 }
 
-.employee-profiles {
+.employeePics {
     display: flex;
     justify-content: space-evenly;
     gap: 20px;
     flex-wrap: wrap;
 }
 
-.employee-profiles figure {
+.employeePics figure {
     text-align: center;
     max-width: 200px;
 }
 
-.employee-profiles img {
+.employeePics img {
     width: 100%;
     border-radius: 10px;
 }
@@ -262,7 +262,9 @@ form {
 }
 
 form input[type="text"],
+
 form input[type="email"],
+
 form textarea {
     padding: 8px;
     border-radius: 5px;
