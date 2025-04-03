@@ -235,7 +235,10 @@ footer .socLinks a img {
     border-radius: 10px;
 }
 .contactInfo p {
+    display: flex;
     color: var(--text-color);
+    text-align: center;
+    justify-content: center;
 }
 
 .employeePics {
