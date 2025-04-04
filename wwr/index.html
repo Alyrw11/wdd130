@@ -6,20 +6,75 @@
         <link rel="stylesheet" href="styles/rafting.css">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+        <script defer src="scripts/carousel.js"></script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="About US rafting information page.">
         <meta name="author" content="Allison Ruault Wright">
-        <title>About Us | White Water Rafting</title>
+        <title>Home | White Water Rafting</title>
     </head> 
     <body>
-        <header>
-
+        <header class="headerGrid">
+            <div>
+                <nav>
+                    <img src="images/logo.png" alt="White Water Rafting Logo">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="trips.html">Trips</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div>
         </header>
         <main>
-
-        </main>
+            <div class="carousel">
+              <h1>Experience the Thrill of the Rapids</h1>
+              <p>Join Us for the Ride of Your Life</p>
+              <div class="slideFade"><img src="images/Gandalf.png" alt="Rafting Adventure 1"></div>
+              <div class="slideFade"><img src="images/Darkness.png" alt="Rafting Adventure 2"></div>
+              <div class="slideFade"><img src="images/Emmett.png" alt="Rafting Adventure 3"></div>
+            </div>
+      
+            <section class="purpose">
+              <div class="purpose-text">
+                <h2>Ready for Adventure?</h2>
+                <p>Don't miss out! Check out our available trips and plan your next outdoor experience.</p>
+                <a class="button" href="trips.html">View Trips</a>
+              </div>
+              <div class="purpose-img">
+                <img src="images/rafting2.jpg" alt="Team Adventure">
+              </div>
+            </section>
+      
+            <section class="newsletter">
+              <div class="newsletter-top">
+                <h2>Sign Up for Our Newsletter</h2>
+                <p>Stay updated on our latest trips and offers!</p>
+              </div>
+              <form class="nlForm">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <button type="submit">Subscribe</button>
+              </form>
+            </section>
+            <section class="offers1">
+              <div class="offersText">
+                <h2>Join the Adventure Now</h2>
+                <p>Our rafting tours provide breathtaking views and heart-pounding excitement.</p>
+                <a class="button" href="trips.html">Learn more</a>
+              </div>
+              <div class="offersImg">
+                <img src="images/rafting1.jpg" alt="Scenic Rafting">
+              </div>
+            </section>
+          </main>
         <footer>
+            <p><a href="https://app.moqups.com/V6UnyxZ4HtT8XKGzdomcimATsOdhLBHI/view/page/a9a5f8d52">View Wireframe</a></p>
+            <p>&copy; 2024 White Water Rafting. Created by Allison R. Wright</p>
+            <div class="socLinks">
+                <a href="https://facebook.com"><img src="images/f.logo.png" alt="Facebook"></a>
+                <a href="https://twitter.com"><img src="images/tweet.png" alt="Twitter"></a>
+                <a href="https://Instagram.com"><img src="images/insta.png" alt="Instagram"></a>
+            </div> 
         </footer>
     </body>
 </html>
