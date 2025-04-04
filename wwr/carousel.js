@@ -2,13 +2,26 @@ let slideIndex = 0;
 
 function showSlides() {
   const slides = document.querySelectorAll(".slideFade");
-  slides.forEach((slide, index) => {
-    slide.style.opacity = "0";
-  });
-  slideIndex++;
-  if (slideIndex > slides.length) slideIndex = 1;
-  slides[slideIndex - 1].style.opacity = "1";
-  setTimeout(showSlides, 10000); // Change image every 10 seconds
+
+  // Remove 'active' class from all slides
+  slides.forEach((slide) => slide.classList.remove("active"));
+
+  // Increment the index and wrap around if needed
+  slideIndex = (slideIndex + 1) % slides.length;
+
+  // Add 'active' class to the current slide
+  slides[slideIndex].classList.add("active");
+
+  // Call the function again after 10 seconds
+  setTimeout(showSlides, 10000);
 }
 
-document.addEventListener("DOMContentLoaded", showSlides);
+// Start the slideshow after the DOM is ready
+document.addEventListener("DOMContentLoaded", () => {
+  const slides = document.querySelectorAll(".slideFade");
+
+  if (slides.length > 0) {
+    slides[0].classList.add("active"); // show first one initially
+    showSlides(); // start the rotation
+  }
+});

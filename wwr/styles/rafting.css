@@ -341,115 +341,124 @@ section {
 
 /*index.html styling*/
 
-.slideFade {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: auto;
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
-  }
-  
-  .carousel {
+.carousel {
     position: relative;
     height: 400px;
     overflow: hidden;
   }
   
-  .slideFade img {
+  .carouselText {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+    top: 30%;
+    transform: translateY(-50%);
+    color: var(--text-color);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    padding: 0 20px;
+  }
+
+.carousel img {
+    position: absolute;
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
   
-  .slideFade:first-child {
-    opacity: 1;
+.carouselText h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
   }
-
-  .purpose {
+  
+.carouselText p {
+    font-size: 1.2em;
+    color: var(--primary-color);
+  }
+  
+.purpose {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 20px;
     flex-wrap: wrap;
+    color: var(--primary-color);
   }
   
-  .purpose-text {
+.purposeTxt {
     flex: 1 1 45%;
+    color: var(--primary-color);
   }
   
-  .purpose-img {
+.purposeTxt p {
+    justify-content: center;
+    color: var(--accent-color);
+  }
+.purposeImg {
     flex: 1 1 45%;
     display: flex;
     justify-content: center;
   }
   
-  .purpose-img img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-  .offers1 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-    flex-wrap: wrap;
-  }
-  
-  .offers-text {
-    flex: 1 1 45%;
-  }
-  
-  .offers-img {
-    flex: 1 1 45%;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .offers-img img {
+.purposeImg img {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
   }
   
-  .newsletter {
+.newsletter {
     background-color: var(--accent-color);
     padding: 20px;
     border-radius: 10px;
     text-align: center;
+    color: var(--secondary-color);
   }
-  
-  .newsletter-top {
-    display: flex;
+ 
+.nlTop {
+    align-items: center;
+    justify-content: center;
+    color: var(--secondary-color);
+  }  
+.nlTop h2, p {
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    gap: 15px;
+    color: var(--secondary-color);
   }
-  
-  .newsletter-form {
+
+
+.offers1 {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
     flex-wrap: wrap;
-    gap: 15px;
-    margin-top: 15px;
+  }
+
+.offersTxt {
+    flex: 1 1 45%;
+  }  
+
+.offersTxt h2, p, a{
+    color: var(--accent-color);
+  }
+
+.offersTxt button  {
+    background-color: var(--primary-color);
+}
+
+.offersTxt button a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.offersImg {
+    flex: 1 1 45%;
+    display: flex;
     justify-content: center;
   }
   
-  .newsletter-form input,
-  .newsletter-form button {
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid var(--text-color);
+.offersImg img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
   }
-  
-  .newsletter-form button {
-    background-color: var(--primary-color);
-    color: var(--text-color);
-    font-weight: bold;
-    border: none;
-    cursor: pointer;
-  }
-
-  
