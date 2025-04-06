@@ -354,62 +354,40 @@ section {
 
 /*index.html styling*/
 
-/*styling the hero section*/
+/*styling the itnro section*/
 
 .carouselHero {
     position: relative;
-    height: 400px;
+    width: auto;
     overflow: hidden;
+    background: #e0f2f1;
 }
 
 .carouselHero img {
     width: 100%;
+    height: 100%;
     object-fit: cover;
+    border-radius: 5px;
 }
-.heroText {
+.intoText {
     position: absolute;
-    top: 125px;
-    left: 250px;
+    top: 20%;
+    left: 15%;
+    color: var(--text-color);
+    font-family: var(--font-body);
+    padding: 20px;
+    border-radius: 10px;
+    text-shadow: 2px 2px 4px black;
     text-align: center;
+}
+
+.intoText h1 {
+    color: var(--text-color);
     font-family: var(--font-heading);
-    z-index: 2;
+    font-size: 2em;
 }
-
-.heroText h1 {
-    font-size: 1.5em;
-    color: var(--text-color);
-    text-shadow: 2px 2px 4px rgba(197, 197, 197, 0.5);
-    transform: translateX(-50%) rotate(5deg);
-}
-
-.heroText p {
-    font-size: 1.2em;
-    color: var(--text-color);
-    text-shadow: 2px 2px 4px rgba(197, 197, 197, 0.5);
-    transform: translateX(-50%) rotate(5deg);
-}
-.slideImg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
-    z-index: 0;
-    animation: fade 3s ease-in-out;
-}
-  
-.slideImg.active {
-    opacity: 1;
-    z-index: 1;
-}
-
-@keyframes fade {
-    from { opacity: 0.4; }
-    to { opacity: 1; }
-}
-
 /*styling newsletter section*/
+
 .newsletter {
     background-color: var(--secondary-color);
     color: var(--accent-color);
@@ -558,4 +536,147 @@ section {
     background-color: var(--accent-color);
     color: var(--secondary-color);
     opacity: 1; /* full opacity on hover */
+}
+
+/*trips page styling*/
+
+.tripDetails {
+    background-color: var(--accent-color);
+    padding: 30px;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.tripTtl {
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.tripTtl h2 {
+    font-size: 1.5em;
+    color: var(--text-color);
+    text-align: left;
+    margin: 0;
+    padding: 10px 0 5px 0;
+    border-bottom: 2px solid var(--primary-color);;
+}
+
+.tripWrapper {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    gap: 20px;
+}
+
+.tripCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.tripCard:hover {
+    transform: translateY(-5px);
+}
+
+.tripCard img {
+    max-width: 300px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.tripCard h3 {
+    margin: 0 0 10px;
+    color: var(--text-color);
+    font-family: var(--font-body);
+    padding: 5px;
+    font-size: 10px;
+}
+
+.tripCard p {
+    color: var(--text-color);
+    padding: 5px;
+    font-size: 10px;
+    line-height: 1.5;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+/*styling the contact us and subscribe now sections*/
+
+.ctuSubsWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    border: 1;
+    background-color: #e0f2f1;
+}
+
+
+.contactCta {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    text-align: center;
+    padding: 30px 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+.subscribeNow {
+    background-color: var(--secondary-color);
+    color: var(--accent-color);
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.sbscbTtl h3{
+    font-size: 1px;
+    margin-bottom: 20px;
+    font-family: var(--font-body);
+}
+
+.sbscbFmt {
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+    flex-wrap: wrap;
+    max-width: 800px;
+    max-height: 100px;
+    margin: auto;
+  }
+  
+.sbscbFmt input[type="text"],
+.sbscbFmt input[type="email"] {
+    padding: 1px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1;
+    min-width: 200px;
+}
+
+.sbscbFmt:hover {
+    background-color: var(--secondary-color);
+    color: var(--accent-color);
+}
+
+.contactCta,
+.subscribeNow {
+    flex: 1 1 45%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .ctaSubscribeWrapper {
+        flex-direction: column;
+    }
+
+    .contactCta,
+    .subscribeNow {
+        flex: 1 1 100%;
+    }
 }
