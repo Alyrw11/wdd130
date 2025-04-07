@@ -556,14 +556,14 @@ main {
     background-color: #e0f2f1;
     padding: 20px;
 }
-
+/*
 .tripDetails h2{
     flex-direction: column;
     text-align: center;
     width: 100%;
     color: var(--text-color);
     text-shadow: 2px 2px 4px black;
-}
+}*/
 
 .tripDetails figure {
     flex: 1 1 calc(20% - 10px);
