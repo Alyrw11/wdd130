@@ -366,7 +366,6 @@ section {
 }
 
 /*index.html styling*/
-
 /*styling the itnro section*/
 
 .carouselHero {
@@ -527,7 +526,7 @@ section {
     cursor: pointer;
 }
 
-.lrnMrBtn {
+.ppBtn {
     position: absolute;
     bottom: 30px;
     right: 30px;
@@ -543,7 +542,7 @@ section {
     transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
-.lrnMrBtn:hover {
+.ppBtn:hover {
     transform: scale(1.05);
     background-color: var(--accent-color);
     color: var(--secondary-color);
@@ -593,42 +592,30 @@ section {
     background-color: #e0f2f1;
 }
 
-
 .contactCta {
-    background-color: var(--primary-color);
-    color: var(--text-color);
-    text-align: center;
-    padding: 30px 20px;
-    margin: 20px auto;
-    border-radius: 8px;
-    opacity: .8
-}
-
-.contactCta {
+    background-color: var(--secondary-color);
     font-family: var(--font-heading);
-    color: var(--text-color);
+    color: var(--accent-color);
     text-align: center;
     padding: 30px 20px 10px;
     margin: 20px;
     border-radius: 8px;
-    opacity: .8;
 }
 
 .contactCta p {
     font-family: var(--font-body);
-    opacity: 1;
+    color: var(--accent-color);
     
 }
 
 .contactCta h3 {
     font-family: var(--font-heading);
-    opacity: 1;
     
 }
 
-.contactCta button{
-    background-color: var(--accent-color);
-    color: var(--accent-color);
+.ctuBtn {
+    background-color: var(--primary-color);
+    color: var(--text-color);
     padding: 5px;
     border: none;
     border-radius: 5px;
