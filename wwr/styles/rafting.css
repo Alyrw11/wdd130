@@ -404,23 +404,23 @@ section {
 .newsletter {
     background-color: var(--secondary-color);
     color: var(--accent-color);
-    padding: 40px 20px;
+    /*padding: 40px 20px;*/
     text-align: center;
     border-radius: 8px;
-    margin: 0 auto;
+    margin: 10px;
 }
 
 .nwsltrTtl h3{
     font-size: 1px;
     margin-bottom: 20px;
     font-family: var(--font-body);
+    margin: 0, 0, 0, 0;
 }
 
 .nswltrFmt {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 1px;
-    flex-wrap: wrap;
     max-width: 800px;
     margin: auto;
   }
@@ -554,68 +554,30 @@ section {
 /*trips page styling*/
 
 .tripDetails {
-    background-color: var(--secondary-color);
-    padding: 30px;
-    border-radius: 8px;
-    align-items: center;
-}
-
-.tripTtl {
-    margin-bottom: 20px;
-    padding-left: 10px;
-}
-
-.tripTtl h2 {
-    font-size: 1.5em;
-    color: var(--text-color);
-    text-align: left;
-    margin: 0;
-    padding: 10px 0 5px 0;
-    border-bottom: 2px solid var(--primary-color);;
-}
-
-.tripWrapper {
-    display: grid;
-    grid-template-columns: 1fr, 1fr, 1fr;
-    gap: 20px;
-}
-
-.tripCard {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    background-color: #e0f2f1;
+    padding: 20px;
+}
+
+.tripDetails h2{
     flex-direction: column;
-    align-items: center;
-    margin-bottom: 30px;
-    background-color: var(--primary-color);
+    text-align: center;
+    width: 100%;
     color: var(--text-color);
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-.tripCard:hover {
-    transform: translateY(-5px);
+.tripDetails figure {
+    flex: 1 1 calc(20% - 10px);
+    margin: 0;
+    text-align: center;
 }
 
-.tripCard img {
-    max-width: 300px;
-    border-radius: 10px;
-    margin-bottom: 15px;
-}
-
-.tripCard h3 {
-    margin: 0 0 10px;
-    color: var(--text-color);
-    font-family: var(--font-body);
-    padding: 5px;
-    font-size: 10px;
-}
-
-.tripCard p {
-    color: var(--text-color);
-    padding: 5px;
-    font-size: 10px;
-    line-height: 1.5;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
+.tripDetails figure img {
+    width: 100%;
+    border-radius: 8px;
 }
 
 /*styling the contact us and subscribe now sections*/
