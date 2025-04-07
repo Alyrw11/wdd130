@@ -546,9 +546,9 @@ main {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: var(--secondary-color);
-    text-shadow: 2px 2px 4px black;
-    color: var(--primary-color);
+    background-color: var(--background-color);
+    text-shadow: 2px 2px 4px rgb(108, 108, 108);
+    color: var(--text-color);
     padding: 5px 0 50px 0;
     margin: 0 30px;
     border-radius: 8px;
@@ -559,10 +559,11 @@ main {
     width: 90%;
     max-width: 800px;
     margin-top: 20px;
+    background-color: var(--background-color);
 }
 
 .tripPrices th, .tripPrices td {
-    border: 1px solid var(--accent-color);
+    border: 1px solid var(--secondary-color);
     padding: 10px;
     text-align: center;
 }
