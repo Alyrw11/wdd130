@@ -19,9 +19,9 @@ body {
     margin: auto;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: var(--font-heading);
-    color: var(--primary-color);
+    color: var(--text-color);
     text-align: center;
     display: flex;
     justify-content: center;
@@ -608,10 +608,6 @@ section {
     
 }
 
-.contactCta h3 {
-    font-family: var(--font-heading);
-    
-}
 
 .ctuBtn {
     background-color: var(--primary-color);
@@ -632,13 +628,14 @@ section {
     border-radius: 8px;
 
 }
-.tripPrices h2 {
+
+/*.tripPrices h2 {
     color: var(--text-color);
     text-shadow: 4px 4px 8px rgba(0, 0, 0, 5);
     opacity: 5;
     margin-bottom: 1.5cm;
     transform: translateX(0%) rotate(10deg);
-}
+}*/
 
 .tripPrices p {
     color: var(--text-color);
@@ -660,11 +657,11 @@ section {
     border-radius: 8px;
 }
 
-.sbscbTtl h3{
+/*.sbscbTtl h3{
     font-size: 1px;
     margin-bottom: 20px;
     font-family: var(--font-body);
-}
+}*/
 
 .sbscbFmt {
     display: flex;
