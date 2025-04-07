@@ -25,6 +25,7 @@ h1, h2, h3 {
     text-align: center;
     display: flex;
     justify-content: center;
+    text-shadow: 2px 2px 4px black;
 }
 
 p {
@@ -165,13 +166,14 @@ nav ul {
     background-color: #e0f2f1;
     padding: 20px;
 }
-
+/*
 .adventureLayout h2{
     flex-direction: column;
     text-align: center;
     width: 100%;
     color: var(--text-color);
-}
+    text-shadow: 2px 2px 4px black;
+}*/
 
 .adventureLayout figure {
     flex: 1 1 calc(20% - 10px);
@@ -277,12 +279,12 @@ footer .socLinks a img {
     width: 200px;
     border-radius: 10px;
 }
-
+/*
 .contactInfo h1 {
     font-size: 2em;
     margin-bottom: 10px;
     text-align: center;
-}
+}*/
 
 .contactInfo p {
     display: flex;
@@ -340,9 +342,9 @@ main {
     margin: auto;
 }
 
-section {
+/*section {
     margin-top: 20px;
-}
+}*/
 
 .contactWrapper {
     display: flex;
@@ -595,6 +597,7 @@ section {
     padding: 30px 10px 10px;
     margin: 20px;
     border-radius: 8px;
+    font-size: small;
 }
 
 /*.contactCta p {
@@ -630,7 +633,7 @@ section {
     opacity: 5;
     margin-bottom: 1.5cm;
     transform: translateX(0%) rotate(10deg);
-}*/
+}
 
 .tripPrices p {
     color: var(--text-color);
@@ -642,7 +645,7 @@ section {
     font-size: small;
 }
 
-/*.subscribeNow {
+.subscribeNow {
     background-color: var(--accent-color);
     font-family: var(--font-body);
     color: var(--text-color);
