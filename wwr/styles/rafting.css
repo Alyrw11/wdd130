@@ -414,7 +414,6 @@ section {
     font-size: 1px;
     margin-bottom: 20px;
     font-family: var(--font-body);
-    margin: 0, 0, 0, 0;
 }
 
 .nswltrFmt {
@@ -567,12 +566,15 @@ section {
     text-align: center;
     width: 100%;
     color: var(--text-color);
+    text-shadow: 2px 2px 4px black;
 }
 
 .tripDetails figure {
     flex: 1 1 calc(20% - 10px);
     margin: 0;
     text-align: center;
+    color: var(--text-color);
+    font-family: var(--font-body);
 }
 
 .tripDetails figure img {
