@@ -157,7 +157,7 @@ nav ul {
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 10px;
-    background-color: var(--accent-color);
+    background-color: #e0f2f1;
     padding: 20px;
 }
 
