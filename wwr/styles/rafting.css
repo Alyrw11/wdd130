@@ -241,12 +241,25 @@ footer .socLinks a img {
 }
 
 .contactInfo, .formSection, .kittyTeam {
-    background-color: var(--accent-color);
-    color: var(--text-color);
     padding: 20px;
     margin: 20px auto;
     border-radius: 10px;
 }
+.contactInfo {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+.formSection {
+    background-color: var(--secondary-color);
+    color: var(--accent-color);
+}
+
+.kittyTeam {
+    background-color: var(--accent-color);
+    color: var(--text-color);
+}
+
 .contactColor, .contactColor1, .contactColor2, .contactColor3{
     color: var(--text-color);
     text-align: center;
@@ -524,7 +537,7 @@ section {
     font-weight: bold;
     padding: 12px 24px;
     border: none;
-    border-radius: 30px; /* to round my button */
+    border-radius: 30px; 
     cursor: pointer;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
     opacity: 0.85; 
@@ -541,7 +554,7 @@ section {
 /*trips page styling*/
 
 .tripDetails {
-    background-color: var(--accent-color);
+    background-color: var(--secondary-color);
     padding: 30px;
     border-radius: 8px;
     align-items: center;
@@ -572,7 +585,8 @@ section {
     flex-direction: column;
     align-items: center;
     margin-bottom: 30px;
-    background-color: white;
+    background-color: var(--primary-color);
+    color: var(--text-color);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
@@ -623,15 +637,48 @@ section {
     padding: 30px 20px;
     margin: 20px auto;
     border-radius: 8px;
+    opacity: .8
+}
+
+.contactCta {
+    font-family: var(--font-heading);
+    color: var(--text-color);
+    text-align: center;
+    padding: 30px 20px 10px;
+    margin: 20px;
+    border-radius: 8px;
+    opacity: .8;
+}
+
+.contactCta p {
+    font-family: var(--font-body);
+    opacity: 1;
+    
+}
+
+.contactCta h3 {
+    font-family: var(--font-heading);
+    opacity: 1;
+    
+}
+
+.contactCta button{
+    background-color: var(--accent-color);
+    color: var(--accent-color);
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .subscribeNow {
-    background-color: var(--secondary-color);
-    color: var(--accent-color);
-    padding: 40px 20px;
+    background-color: var(--accent-color);
+    height: 2in;
+    color: var(--secondary-color);
+    margin: 20px 20px 15px 20px;
+    padding: 10px 20px;
     text-align: center;
     border-radius: 8px;
-    margin: 0 auto;
 }
 
 .sbscbTtl h3{
@@ -643,7 +690,8 @@ section {
 .sbscbFmt {
     display: flex;
     justify-content: center;
-    gap: 1px;
+    text-align: center;
+    gap: 5px;
     flex-wrap: wrap;
     max-width: 800px;
     max-height: 100px;
@@ -666,7 +714,7 @@ section {
 
 .contactCta,
 .subscribeNow {
-    flex: 1 1 45%;
+    flex: 1 1;
     box-sizing: border-box;
 }
 
