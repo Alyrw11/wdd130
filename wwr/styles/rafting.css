@@ -241,23 +241,11 @@ footer .socLinks a img {
 }
 
 .contactInfo, .formSection, .kittyTeam {
+    background-color: var(--accent-color);
+    color: var(--text-color);
     padding: 20px;
     margin: 20px auto;
     border-radius: 10px;
-}
-.contactInfo {
-    background-color: var(--primary-color);
-    color: var(--text-color);
-}
-
-.formSection {
-    background-color: var(--secondary-color);
-    color: var(--accent-color);
-}
-
-.kittyTeam {
-    background-color: var(--accent-color);
-    color: var(--text-color);
 }
 
 .contactColor, .contactColor1, .contactColor2, .contactColor3{
@@ -319,7 +307,6 @@ form {
 }
 
 form input[type="text"],
-
 form input[type="email"],
 
 form textarea {
