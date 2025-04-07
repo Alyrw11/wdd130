@@ -27,12 +27,12 @@ h1, h2, h3 {
     justify-content: center;
     text-shadow: 2px 2px 4px black;
 }
-
+/*
 p {
     color: var(--text-color);
     line-height: 1.6;
 }
-
+*/
 
 header {
     display: flex;
@@ -592,15 +592,19 @@ main {
     max-width: 600px;
 }
   
-.tpTxt h3 {
+.tpTxt h3, p {
     font-size: 4mm;
+    text-align: center;
+    padding-bottom: 30px;
     margin: 0;
+    color: var(--text-color);
 }
-  
+/*  
 .tpTxt p {
     font-size: 1em;
     color: var(--text-color);
-}
+}*/
+
 /*styling the contact us and subscribe now sections*/
 
 .ctuSubsWrapper{
