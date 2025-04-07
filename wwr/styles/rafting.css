@@ -488,7 +488,7 @@ main {
     left: 20px;
     margin: 0;
     font-size: 5mm;
-    color: var(--secondary-color);
+    color: var(--text-color);
     transform: rotate(1.5deg);
 }
 
