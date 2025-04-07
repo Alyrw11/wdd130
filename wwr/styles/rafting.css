@@ -587,21 +587,21 @@ section {
     background-color: #e0f2f1;
 }
 
-.contactCta {
-    background-color: var(--secondary-color);
-    font-family: var(--font-heading);
-    color: var(--accent-color);
+.contactCta, .subscribeNow, .tripPrices {
+    background-color: var(--accent-color);
+    font-family: var(--font-body);
+    color: var(--text-color);
     text-align: center;
-    padding: 30px 20px 10px;
+    padding: 30px 10px 10px;
     margin: 20px;
     border-radius: 8px;
 }
 
-.contactCta p {
+/*.contactCta p {
     font-family: var(--font-body);
-    color: var(--accent-color);
+    color: var(--text-color);
     
-}
+}*/
 
 
 .ctuBtn {
@@ -613,7 +613,7 @@ section {
     opacity: .8;
 }
 
-.tripPrices {
+/*.tripPrices {
     background-color: var(--background-color);
     font-family: var(--font-body);
     color: var(--text-color);
@@ -624,7 +624,7 @@ section {
 
 }
 
-/*.tripPrices h2 {
+.tripPrices h2 {
     color: var(--text-color);
     text-shadow: 4px 4px 8px rgba(0, 0, 0, 5);
     opacity: 5;
@@ -642,7 +642,7 @@ section {
     font-size: small;
 }
 
-.subscribeNow {
+/*.subscribeNow {
     background-color: var(--accent-color);
     font-family: var(--font-body);
     color: var(--text-color);
@@ -652,7 +652,7 @@ section {
     border-radius: 8px;
 }
 
-/*.sbscbTtl h3{
+.sbscbTtl h3{
     font-size: 1px;
     margin-bottom: 20px;
     font-family: var(--font-body);
