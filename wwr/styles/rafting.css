@@ -181,25 +181,11 @@ nav ul {
     text-align: center;
 }
 
-/*.adventureLayout figure img {
-    width: 100%;
-    border-radius: 8px;
-}*/
-
 .adventureLayout figcaption {
     margin-top: 5px;
     font-weight: bold;
     color: var(--text-color);
 }
-/*
-.hclient img {
-    position:absolute;
-    float: right;
-    margin-left: 10px;
-    width: 20px;
-    padding: 10px;
-    border-radius: 20%;
-}*/
 
 section {
     padding: 20px;
@@ -279,12 +265,6 @@ footer .socLinks a img {
     width: 200px;
     border-radius: 10px;
 }
-/*
-.contactInfo h1 {
-    font-size: 2em;
-    margin-bottom: 10px;
-    text-align: center;
-}*/
 
 .contactInfo p {
     display: flex;
@@ -402,12 +382,6 @@ main {
     border-radius: 8px;
     margin: 10px;
 }
-
-/*.nwsltrTtl h3{
-    font-size: 1px;
-    margin-bottom: 20px;
-    font-family: var(--font-body);
-}*/
 
 .nswltrFmt, .sbscbFmt{
     display: flex;
@@ -556,14 +530,6 @@ main {
     background-color: #e0f2f1;
     padding: 20px;
 }
-/*
-.tripDetails h2{
-    flex-direction: column;
-    text-align: center;
-    width: 100%;
-    color: var(--text-color);
-    text-shadow: 2px 2px 4px black;
-}*/
 
 .tripDetails figure {
     flex: 1 1 calc(20% - 10px);
@@ -573,11 +539,68 @@ main {
     font-family: var(--font-body);
 }
 
-/*.tripDetails figure img {
-    width: 100%;
+.tripPrices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--secondary-color);
+    text-shadow: 2px 2px 4px black;
+    color: var(--primary-color);
+    padding: 5px 0 50px 0;
+    margin: 0 30px;
     border-radius: 8px;
-}*/
+}
 
+.tripPrices table {
+    border-collapse: collapse;
+    width: 90%;
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+.tripPrices th, .tripPrices td {
+    border: 1px solid var(--accent-color);
+    padding: 10px;
+    text-align: center;
+}
+
+.tripCards {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 5px;
+    background-color: var(--primary-color);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.tripCards img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.tpTxt {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 600px;
+}
+  
+.tpTxt h3 {
+    font-size: 4mm;
+    margin: 0;
+}
+  
+.tpTxt p {
+    font-size: 1em;
+    color: var(--text-color);
+}
 /*styling the contact us and subscribe now sections*/
 
 .ctuSubsWrapper{
@@ -589,7 +612,7 @@ main {
     background-color: #e0f2f1;
 }
 
-.contactCta, .subscribeNow, .tripPrices {
+.contactCta, .subscribeNow {
     background-color: var(--accent-color);
     font-family: var(--font-body);
     color: var(--text-color);
@@ -600,13 +623,6 @@ main {
     font-size: small;
 }
 
-/*.contactCta p {
-    font-family: var(--font-body);
-    color: var(--text-color);
-    
-}*/
-
-
 .ctuBtn {
     background-color: var(--primary-color);
     padding: 5px;
@@ -615,72 +631,6 @@ main {
     cursor: pointer;
     opacity: .8;
 }
-
-/*.tripPrices {
-    background-color: var(--background-color);
-    font-family: var(--font-body);
-    color: var(--text-color);
-    text-align: center;
-    padding: 30px 20px 10px;
-    margin: 20px;
-    border-radius: 8px;
-
-}
-
-.tripPrices h2 {
-    color: var(--text-color);
-    text-shadow: 4px 4px 8px rgba(0, 0, 0, 5);
-    opacity: 5;
-    margin-bottom: 1.5cm;
-    transform: translateX(0%) rotate(10deg);
-}
-
-.tripPrices p {
-    color: var(--text-color);
-    font-family: var(--font-body);
-}
-
-.tripPrices tr {
-    padding: 5px;
-    font-size: small;
-}
-
-.subscribeNow {
-    background-color: var(--accent-color);
-    font-family: var(--font-body);
-    color: var(--text-color);
-    text-align: center;
-    padding: 30px 20px 10px 10px;
-    margin: 20px;
-    border-radius: 8px;
-}
-
-.sbscbTtl h3{
-    font-size: 1px;
-    margin-bottom: 20px;
-    font-family: var(--font-body);
-}
-
-.sbscbFmt {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    gap: 10px;
-    flex-wrap: wrap;
-    max-width: 200px;
-    max-height: 120px;
-    margin: auto;
-  }
-  
-.sbscbFmt input[type="text"],
-.sbscbFmt input[type="email"] {
-    padding: 3px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    flex: 1;
-    min-width: 200px;
-}*/
-
 
 .sbscbFmt:hover {
     background-color: var(--secondary-color);
