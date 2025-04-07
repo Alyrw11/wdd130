@@ -78,6 +78,7 @@ nav ul {
 .hero {
     position: relative;
     text-align: center;
+    margin-top: 10px;
 }
 
 .hero img {
