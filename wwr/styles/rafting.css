@@ -45,6 +45,11 @@ header img {
     height: 60px;
 }
 
+figure img {
+    width: 100%;
+    border-radius: 8px;
+}
+
 .headerGrid {
     display: grid;
     grid-template-columns: auto 1fr;
@@ -174,17 +179,17 @@ nav ul {
     text-align: center;
 }
 
-.adventureLayout figure img {
+/*.adventureLayout figure img {
     width: 100%;
     border-radius: 8px;
-}
+}*/
 
 .adventureLayout figcaption {
     margin-top: 5px;
     font-weight: bold;
     color: var(--text-color);
 }
-
+/*
 .hclient img {
     position:absolute;
     float: right;
@@ -192,7 +197,7 @@ nav ul {
     width: 20px;
     padding: 10px;
     border-radius: 20%;
-}
+}*/
 
 section {
     padding: 20px;
@@ -240,7 +245,7 @@ footer .socLinks a img {
     }
 }
 
-.contactInfo, .formSection, .kittyTeam {
+/*.contactInfo, .formSection, .kittyTeam,*/ .contactBox {
     background-color: var(--accent-color);
     color: var(--text-color);
     padding: 20px;
@@ -248,7 +253,7 @@ footer .socLinks a img {
     border-radius: 10px;
 }
 
-.contactColor, .contactColor1, .contactColor2, .contactColor3{
+.contactColor {
     color: var(--text-color);
     text-align: center;
     font: 1.8em;
@@ -396,22 +401,25 @@ section {
     margin: 10px;
 }
 
-.nwsltrTtl h3{
+/*.nwsltrTtl h3{
     font-size: 1px;
     margin-bottom: 20px;
     font-family: var(--font-body);
-}
+}*/
 
-.nswltrFmt {
+.nswltrFmt, .sbscbFmt{
     display: flex;
-    justify-content: space-between;
-    gap: 1px;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
     max-width: 800px;
     margin: auto;
-  }
+}
   
 .nswltrFmt input[type="text"],
-.nswltrFmt input[type="email"] {
+.sbscbFmt input[type="text"],
+.nswltrFmt input[type="email"],
+.sbscbFmt input[type="email"] {
     padding: 1px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -563,10 +571,10 @@ section {
     font-family: var(--font-body);
 }
 
-.tripDetails figure img {
+/*.tripDetails figure img {
     width: 100%;
     border-radius: 8px;
-}
+}*/
 
 /*styling the contact us and subscribe now sections*/
 
@@ -648,7 +656,7 @@ section {
     font-size: 1px;
     margin-bottom: 20px;
     font-family: var(--font-body);
-}*/
+}
 
 .sbscbFmt {
     display: flex;
@@ -668,7 +676,8 @@ section {
     border-radius: 5px;
     flex: 1;
     min-width: 200px;
-}
+}*/
+
 
 .sbscbFmt:hover {
     background-color: var(--secondary-color);
