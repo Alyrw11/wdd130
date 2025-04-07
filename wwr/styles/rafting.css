@@ -587,7 +587,7 @@ section {
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 20px;
-    border: 1;
+    border: 1px;
     background-color: #e0f2f1;
 }
 
