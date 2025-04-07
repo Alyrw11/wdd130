@@ -615,20 +615,48 @@ section {
 
 .ctuBtn {
     background-color: var(--primary-color);
-    color: var(--text-color);
     padding: 5px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    opacity: .8;
+}
+
+.tripPrices {
+    background-color: var(--background-color);
+    font-family: var(--font-body);
+    color: var(--text-color);
+    text-align: center;
+    padding: 30px 20px 10px;
+    margin: 20px;
+    border-radius: 8px;
+
+}
+.tripPrices h2 {
+    color: var(--text-color);
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 5);
+    opacity: 5;
+    margin-bottom: 1.5cm;
+    transform: translateX(0%) rotate(10deg);
+}
+
+.tripPrices p {
+    color: var(--text-color);
+    font-family: var(--font-body);
+}
+
+.tripPrices tr {
+    padding: 5px;
+    font-size: small;
 }
 
 .subscribeNow {
     background-color: var(--accent-color);
-    height: 2in;
-    color: var(--secondary-color);
-    margin: 20px 20px 15px 20px;
-    padding: 10px 20px;
+    font-family: var(--font-body);
+    color: var(--text-color);
     text-align: center;
+    padding: 30px 20px 10px 10px;
+    margin: 20px;
     border-radius: 8px;
 }
 
@@ -642,16 +670,16 @@ section {
     display: flex;
     justify-content: center;
     text-align: center;
-    gap: 5px;
+    gap: 10px;
     flex-wrap: wrap;
-    max-width: 800px;
-    max-height: 100px;
+    max-width: 200px;
+    max-height: 120px;
     margin: auto;
   }
   
 .sbscbFmt input[type="text"],
 .sbscbFmt input[type="email"] {
-    padding: 1px;
+    padding: 3px;
     border: 1px solid #ccc;
     border-radius: 5px;
     flex: 1;
