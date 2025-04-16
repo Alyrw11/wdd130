@@ -360,7 +360,6 @@ main {
     position: absolute;
     top: 20%;
     left: 15%;
-    color: var(--text-color);
     font-family: var(--font-body);
     padding: 20px;
     border-radius: 10px;
@@ -376,8 +375,7 @@ main {
 /*styling newsletter section*/
 
 .newsletter {
-    background-color: var(--secondary-color);
-    color: var(--accent-color);
+    background-color: var(--accent-color);
     /*padding: 40px 20px;*/
     text-align: center;
     border-radius: 8px;
@@ -414,7 +412,15 @@ main {
 .offerWrapper {
     background-color: transparent;
     position: relative;
-    height: 300px
+    height: 300px;
+    /*updating file*/
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    background-color: #e0f2f1;
+    padding: 20px;
+    border-radius: 10px;
+
 }
 
 .offersImg {
@@ -447,24 +453,34 @@ main {
     position: absolute;
     top: 0;
     left: 0;
+    width: 95%;
+    height: 90%;
+    justify-items: center; 
+    align-items: center;
+    text-align: start;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    color: var(--text-color);
+    text-align: center;
     z-index: 2;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /*will need to adjust */
-    align-items: center; /*will need to adjust */
-    text-align: center; /*will need to adjust */
+    opacity: 1;
 }
-
+/*
 .poTitle {
-    position: absolute;
+    /*position: absolute;
     top: 20px;
     left: 20px;
     margin: 0;
     font-size: 5mm;
     color: var(--text-color);
-    transform: rotate(1.5deg);
+    transform: rotate(1.5deg);*/
+   /* font-size: 1.5rem;
+    color: var(--text-color);
+    margin-bottom: 10px;
+    opacity: 1;
 }
 
 .purposeOffers p:nth-of-type(1) {
@@ -490,7 +506,7 @@ main {
     color: var(--text-color);
     transform: rotate(-2deg);
     transition: all 0.3s ease;
-}
+}*/
 
 .purposeOffers p:hover {
     transform: scale(1.05) rotate(0deg);
@@ -502,14 +518,13 @@ main {
     position: absolute;
     bottom: 30px;
     right: 30px;
-    background-color: var(--primary-color);
-    color: var(--text-color);
+    background-color: var(--secondary-color);
+    color: var(--background-color);
     font-weight: bold;
     padding: 12px 24px;
     border: none;
     border-radius: 30px; 
     cursor: pointer;
-    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
     opacity: 0.85; 
     transition: transform 0.2s ease, opacity 0.2s ease;
 }
@@ -630,7 +645,7 @@ main {
 }
 
 .ctuBtn {
-    background-color: var(--primary-color);
+    color: var(--secondary-color);
     padding: 5px;
     border: none;
     border-radius: 5px;
